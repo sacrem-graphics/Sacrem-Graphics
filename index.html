@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+ 
   <meta name="description" content="SACREM GRAPHICS — graphic design for brands, businesses and sports.">
-
+ 
   <title>SACREM GRAPHICS | Graphic Design</title>
-
+ 
   <style>
     :root {
       --bg: #080808;
@@ -17,34 +17,34 @@
       --light: #f3f3f3;
       --dark: #090909;
     }
-
+ 
     * {
       box-sizing: border-box;
     }
-
+ 
     html {
       scroll-behavior: smooth;
     }
-
+ 
     body {
       margin: 0;
       background: var(--bg);
       color: var(--text);
       font-family: Arial, Helvetica, sans-serif;
     }
-
+ 
     a {
       color: inherit;
       text-decoration: none;
     }
-
+ 
     .wrap {
       width: min(1120px, 90%);
       margin: auto;
     }
-
+ 
     /* NAVIGATION */
-
+ 
     header {
       position: sticky;
       top: 0;
@@ -53,20 +53,20 @@
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--line);
     }
-
+ 
     nav {
       min-height: 72px;
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
-
+ 
     .wordmark {
       font-weight: 800;
       letter-spacing: 0.22em;
       font-size: 15px;
     }
-
+ 
     .wordmark span {
       display: block;
       font-size: 9px;
@@ -74,24 +74,24 @@
       letter-spacing: 0.55em;
       margin-top: 5px;
     }
-
+ 
     .navlinks {
       display: flex;
       gap: 26px;
       color: #ccc;
       font-size: 13px;
     }
-
+ 
     .navlinks a {
       transition: 0.2s;
     }
-
+ 
     .navlinks a:hover {
       color: white;
     }
-
+ 
     /* HERO */
-
+ 
     .hero {
       min-height: 85vh;
       display: grid;
@@ -99,27 +99,27 @@
       text-align: center;
       padding: 80px 0 100px;
     }
-
+ 
     .hero-logo {
       width: min(330px, 70vw);
       display: block;
       margin: 0 auto 40px;
     }
-
+ 
     .eyebrow {
       color: #aaa;
       text-transform: uppercase;
       letter-spacing: 0.28em;
       font-size: 11px;
     }
-
+ 
     h1 {
       font-size: clamp(42px, 7vw, 82px);
       letter-spacing: -0.055em;
       line-height: 0.95;
       margin: 20px 0;
     }
-
+ 
     .hero p {
       color: var(--muted);
       max-width: 560px;
@@ -127,7 +127,7 @@
       line-height: 1.7;
       font-size: 15px;
     }
-
+ 
     .button {
       display: inline-block;
       padding: 15px 24px;
@@ -140,19 +140,19 @@
       text-transform: uppercase;
       transition: 0.2s;
     }
-
+ 
     .button:hover {
       background: transparent;
       color: white;
     }
-
+ 
     /* SECTIONS */
-
+ 
     section {
       padding: 92px 0;
       border-top: 1px solid var(--line);
     }
-
+ 
     .section-head {
       display: flex;
       justify-content: space-between;
@@ -160,43 +160,43 @@
       gap: 30px;
       margin-bottom: 40px;
     }
-
+ 
     .section-head h2 {
       margin: 8px 0 0;
       font-size: clamp(34px, 5vw, 52px);
       letter-spacing: -0.04em;
     }
-
+ 
     .section-head p {
       max-width: 420px;
       color: var(--muted);
       line-height: 1.7;
       font-size: 14px;
     }
-
+ 
     /* SERVICES */
-
+ 
     .services {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       border-top: 1px solid var(--line);
     }
-
+ 
     .service {
       padding: 28px 25px 28px 0;
       border-bottom: 1px solid var(--line);
     }
-
+ 
     .service small {
       color: #777;
       letter-spacing: 0.15em;
     }
-
+ 
     .service h3 {
       font-size: 21px;
       margin: 12px 0 8px;
     }
-
+ 
     .service p {
       color: var(--muted);
       font-size: 14px;
@@ -204,15 +204,15 @@
       margin: 0;
       max-width: 430px;
     }
-
+ 
     /* PORTFOLIO */
-
+ 
     .work-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 18px;
     }
-
+ 
     .work-card {
       position: relative;
       aspect-ratio: 4 / 5;
@@ -220,7 +220,7 @@
       background: #111;
       border: 1px solid #292929;
     }
-
+ 
     .work-card img {
       position: absolute;
       inset: 0;
@@ -231,11 +231,11 @@
       display: block;
       transition: transform 0.4s ease;
     }
-
+ 
     .work-card:hover img {
       transform: scale(1.035);
     }
-
+ 
     .work-info {
       position: absolute;
       bottom: 0;
@@ -248,41 +248,41 @@
       );
       padding-top: 60px;
     }
-
+ 
     .work-info small {
       color: #ccc;
       font-size: 10px;
       letter-spacing: 0.18em;
       text-transform: uppercase;
     }
-
+ 
     .work-info h3 {
       margin: 6px 0 0;
       font-size: 18px;
     }
-
+ 
     .note {
       color: #777;
       font-size: 12px;
       margin-top: 18px;
     }
-
+ 
     /* ABOUT */
-
+ 
     .about {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 60px;
       align-items: start;
     }
-
+ 
     .about h2 {
       font-size: clamp(38px, 5vw, 58px);
       line-height: 1;
       letter-spacing: -0.05em;
       margin: 10px 0;
     }
-
+ 
     .about p {
       color: var(--muted);
       line-height: 1.8;
@@ -290,103 +290,103 @@
       margin-top: 0;
       margin-bottom: 20px;
     }
-
+ 
     /* CONTACT */
-
+ 
     .contact {
       background: var(--light);
       color: var(--dark);
     }
-
+ 
     .contact .eyebrow {
       color: #555;
     }
-
+ 
     .contact p {
       color: #555;
       max-width: 520px;
       line-height: 1.7;
     }
-
+ 
     .contact h2 {
       font-size: clamp(42px, 7vw, 78px);
       letter-spacing: -0.06em;
       line-height: 0.95;
       margin: 14px 0 24px;
     }
-
+ 
     .contact .button {
       background: var(--dark);
       color: white;
       border-color: var(--dark);
     }
-
+ 
     .contact .button:hover {
       background: transparent;
       color: var(--dark);
     }
-
+ 
     /* FOOTER */
-
+ 
     footer {
       padding: 26px 0;
       color: #777;
       font-size: 11px;
       letter-spacing: 0.08em;
     }
-
+ 
     footer .wrap {
       display: flex;
       justify-content: space-between;
       gap: 20px;
     }
-
+ 
     /* MOBILE */
-
+ 
     @media (max-width: 700px) {
-
+ 
       .navlinks {
         gap: 14px;
         font-size: 11px;
       }
-
+ 
       .hero {
         min-height: 75vh;
         padding: 70px 0;
       }
-
+ 
       section {
         padding: 70px 0;
       }
-
+ 
       .section-head {
         display: block;
       }
-
+ 
       .section-head p {
         margin-top: 15px;
       }
-
+ 
       .services {
         grid-template-columns: 1fr;
       }
-
+ 
       .work-grid {
         grid-template-columns: 1fr;
       }
-
+ 
       .work-card {
         aspect-ratio: 4 / 5;
       }
-
+ 
       .about {
         display: block;
       }
-
+ 
       .about > div:last-child {
         margin-top: 30px;
       }
-
+ 
       footer .wrap {
         display: block;
         line-height: 2;
@@ -394,396 +394,396 @@
     }
   </style>
 </head>
-
+ 
 <body>
-
+ 
   <!-- NAVIGATION -->
-
+ 
   <header>
     <div class="wrap">
-
+ 
       <nav>
-
+ 
         <a class="wordmark" href="#home">
           SACREM
           <span>GRAPHICS</span>
         </a>
-
+ 
         <div class="navlinks">
           <a href="#services">Services</a>
           <a href="#work">Work</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </div>
-
+ 
       </nav>
-
+ 
     </div>
   </header>
-
-
+ 
+ 
   <main>
-
+ 
     <!-- HERO -->
-
+ 
     <div class="hero wrap" id="home">
-
+ 
       <div>
-
+ 
         <img
           class="hero-logo"
           src="sacrem-logo.png"
           alt="SACREM GRAPHICS logo"
         >
-
+ 
         <div class="eyebrow">
           Graphic Design Studio
         </div>
-
+ 
         <h1>
           Design that<br>
           gets noticed.
         </h1>
-
+ 
         <p>
           SACREM GRAPHICS creates clean, modern visuals
           for businesses, sports, social media and brands.
         </p>
-
+ 
         <a class="button" href="#work">
           View My Work
         </a>
-
+ 
       </div>
-
+ 
     </div>
-
-
+ 
+ 
     <!-- SERVICES -->
-
+ 
     <section id="services">
-
+ 
       <div class="wrap">
-
+ 
         <div class="section-head">
-
+ 
           <div>
             <div class="eyebrow">
               What I do
             </div>
-
+ 
             <h2>
               Services
             </h2>
           </div>
-
+ 
           <p>
             Graphic design for businesses, teams and individuals
             who want their visuals to stand out.
           </p>
-
+ 
         </div>
-
-
+ 
+ 
         <div class="services">
-
+ 
           <article class="service">
-
+ 
             <small>
               01 / SOCIAL
             </small>
-
+ 
             <h3>
               Social Media Graphics
             </h3>
-
+ 
             <p>
               Promotional posts, announcements and
               graphics for Instagram and other social platforms.
             </p>
-
+ 
           </article>
-
-
+ 
+ 
           <article class="service">
-
+ 
             <small>
               02 / SPORT
             </small>
-
+ 
             <h3>
               Sports Graphics
             </h3>
-
+ 
             <p>
               Player graphics, game-day designs,
               announcements and sports content.
             </p>
-
+ 
           </article>
-
-
+ 
+ 
           <article class="service">
-
+ 
             <small>
               03 / DESIGN
             </small>
-
+ 
             <h3>
               Posters & Promotions
             </h3>
-
+ 
             <p>
               Eye-catching posters and promotional
               designs for businesses and events.
             </p>
-
+ 
           </article>
-
-
+ 
+ 
           <article class="service">
-
+ 
             <small>
               04 / BRAND
             </small>
-
+ 
             <h3>
               Branding & Logos
             </h3>
-
+ 
             <p>
               Simple, modern visual identities and
               logo designs for new businesses and projects.
             </p>
-
+ 
           </article>
-
+ 
         </div>
-
+ 
       </div>
-
+ 
     </section>
-
-
+ 
+ 
     <!-- PORTFOLIO -->
-
+ 
     <section id="work">
-
+ 
       <div class="wrap">
-
+ 
         <div class="section-head">
-
+ 
           <div>
-
+ 
             <div class="eyebrow">
               Selected work
             </div>
-
+ 
             <h2>
               Portfolio
             </h2>
-
+ 
           </div>
-
+ 
           <p>
             A selection of work created by SACREM GRAPHICS.
           </p>
-
+ 
         </div>
-
-
+ 
+ 
         <div class="work-grid">
-
-
+ 
+ 
           <!-- PROJECT 1 -->
-
+ 
           <div class="work-card">
-
+ 
             <img
               src="game-day.png"
               alt="Basketball graphic"
               loading="lazy"
             >
-
+ 
             <div class="work-info">
-
+ 
               <small>
                 Sports Design
               </small>
-
+ 
               <h3>
                 Game Day
               </h3>
-
+ 
             </div>
-
+ 
           </div>
-
-
+ 
+ 
           <!-- PROJECT 2 -->
-
+ 
           <div class="work-card">
-
+ 
             <img
               src="business-mechanic.png"
               alt="MK Car Doctor graphic design"
               loading="lazy"
             >
-
+ 
             <div class="work-info">
-
+ 
               <small>
                 Business Design
               </small>
-
+ 
               <h3>
                 MK Car Doctor
               </h3>
-
+ 
             </div>
-
+ 
           </div>
-
-
+ 
+ 
           <!-- PROJECT 3 -->
-
+ 
           <div class="work-card">
-
+ 
             <img
               src="sacrem-design.png"
               alt="SACREM typography design"
               loading="lazy"
             >
-
+ 
             <div class="work-info">
-
+ 
               <small>
                 Typography
               </small>
-
+ 
               <h3>
                 SACREM — Concept
               </h3>
-
+ 
             </div>
-
+ 
           </div>
-
-
+ 
+ 
         </div>
-
-
+ 
+ 
         <p class="note">
           Selected personal and concept projects by SACREM GRAPHICS.
           All projects shown are unsolicited concept designs. They were not
           commissioned by, and are not affiliated with or endorsed by, any
           player, team or business featured.
         </p>
-
+ 
       </div>
-
+ 
     </section>
-
-
+ 
+ 
     <!-- ABOUT -->
-
+ 
     <section id="about">
-
+ 
       <div class="wrap about">
-
+ 
         <div>
-
+ 
           <div class="eyebrow">
             About SACREM
           </div>
-
+ 
           <h2>
             Simple.<br>
             Bold.<br>
             Creative.
           </h2>
-
+ 
         </div>
-
-
+ 
+ 
         <div>
-
+ 
           <p>
             SACREM GRAPHICS is a growing graphic design studio
             focused on creating modern and effective visuals.
           </p>
-
+ 
           <p>
             From social media graphics and sports designs
             to business promotions and branding, SACREM
             focuses on making designs that look clean,
             professional and memorable.
           </p>
-
+ 
           <p>
             Every project is created with the goal of
             helping the client present their idea better.
           </p>
-
+ 
         </div>
-
+ 
       </div>
-
+ 
     </section>
-
-
+ 
+ 
     <!-- CONTACT -->
-
+ 
     <section class="contact" id="contact">
-
+ 
       <div class="wrap">
-
+ 
         <div class="eyebrow">
           Start a project
         </div>
-
+ 
         <h2>
           Need a<br>
           design?
         </h2>
-
+ 
         <p>
           If you need a graphic for your business,
           sports team, social media or project,
           get in touch with SACREM GRAPHICS.
         </p>
-
+ 
         <a
           class="button"
           href="mailto:patrickmercas@gmail.com?subject=SACREM%20Graphics%20Enquiry"
         >
           Contact SACREM
         </a>
-
+ 
       </div>
-
+ 
     </section>
-
+ 
   </main>
-
-
+ 
+ 
   <!-- FOOTER -->
-
+ 
   <footer>
-
+ 
     <div class="wrap">
-
+ 
       <span>
         © 2026 SACREM GRAPHICS
       </span>
-
+ 
       <span>
         DESIGN · CREATE · IMPACT
       </span>
-
+ 
     </div>
-
+ 
   </footer>
-
+ 
 </body>
 </html>
